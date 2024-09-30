@@ -582,9 +582,9 @@ Wazuh collects various types of logs, including Audit Logs. These logs are store
 OPNsense has built in NetFlow logs collection. And it's easy to setup. It also has logs export to .csv functionality.
 Logs will be periodically exported and stored on NAS for future investigations.
 
-![Netflow setup](/imgs/opnsense/netflow-settings.jpg)
-![Netflow export](/imgs/opnsense/netflow-export.jpg)
-![Netflow dashboard view](/imgs/opnsense/netflow-insight.jpg)
+![Netflow setup](./imgs/opnsense/netflow-settings.jpg)
+![Netflow export](./imgs/opnsense/netflow-export.jpg)
+![Netflow dashboard view](./imgs/opnsense/netflow-insight.jpg)
 
 
 [Back to index](#index)
@@ -612,12 +612,16 @@ Logs will be periodically exported and stored on NAS for future investigations.
 - training on social engineering attacks, data handling and security awareness;
 - configuring and training on safe methods for password creation and storage;
 
-![IT topology after changes](/imgs/diagrams/location-1-2.jpg)
+![IT topology after changes](./imgs/diagrams/location-1-2.jpg)
 
 
 # Threat simulation
 
-WIP
+![MITRE CALDERA](./imgs/threat%20simulation/caldera.png)
+
+[MITRE Caldera](https://caldera.mitre.org/) is an automated adversary emulation platform. It consists of C2 server and Agents installed and running on target hosts. Agents act like an adversary who got access to the endpoint and established connection with C2 server. Agent performs tasks which relate to [MITRE ATT&CK](https://attack.mitre.org/) framework which is a collection of tactics techniques and procedures used by real world adversaries.
+
+For the purpose of this project I chose 
 
 # Findings
 
