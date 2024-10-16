@@ -597,6 +597,8 @@ Logs will be periodically exported and stored on NAS for future investigations.
 
 For the purpose of this project I chose two endpoints. Linux and Windows.
 
+![Agents](./imgs/threat%20simulation/agents.png)
+
 I decided to perform various operations on these endpoints in various conditions. Eg: with Defender on and off, to test how systems perform. Also to find what is being discovered by Wazuh.
 
 Caldera offers predefined operations and I'm going to use some of them. I skipped discovery and collection type operations and decided to perform others, which unidentified would cause bigger harm to the systems.
